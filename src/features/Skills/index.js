@@ -1,15 +1,6 @@
-import { Disc, List, ListItem } from "./styled";
+import { List } from "../../common/List";
 import { skillList } from "../../dataStore";
 
 export const Skills = () => {
-  return (
-    <List>
-      {skillList.map((skill) => (
-        <ListItem key={skill}>
-          <Disc />
-          {skill}
-        </ListItem>
-      ))}
-    </List>
-  );
+  return <List skills={skillList} />;
 };
