@@ -1,8 +1,10 @@
 export const personalData = {
   name: "Oskar",
   surname: "Tracz",
-  aboutMe:
+  caption:
     "👨🏻‍💻🖥 Passionate Frontend Developer with a keen eye for user-centric design and visual details. I am seeking engaging projects while dedicating my free time to building my own SaaS application, using experience gained in other industries.",
+  description:
+    "I'm open to new projects. If you need any help with building website, SaaS app, dashboard or any kind and size of application feel free to contact me. I'm not afraid of challenges 🙌🤝",
   email: "traczoskar@gmail.com",
 };
 
@@ -35,8 +37,8 @@ export const skillList = [
   "Markdown",
 ];
 
-export const futureSkillList = [
-  "SSR: Next.js",
+export const toLearnList = [
+  "Next.js",
   "TypeScript",
   "React Context",
   "Node.js",
