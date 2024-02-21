@@ -35,7 +35,7 @@ export const skillList = [
   "React-Router",
   "Scrum",
   "Markdown",
-  "Local Storage",
+  "LocalStorage",
 ];
 
 export const toLearnList = [
