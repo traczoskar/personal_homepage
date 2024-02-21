@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  padding: 32px 33px 32px 32px;
-  background-color: ${({ theme }) => theme.color.white};
-  box-shadow: 0px 16px 58px 0px rgba(9, 10, 51, 0.03);
-  box-shadow: 0px -2px 50px 0px rgba(9, 10, 51, 0.02);
+  padding: 32px;
+  background-color: ${({ theme }) => theme.colors.boxBackground};
+  box-shadow: ${({ theme }) => theme.boxShadow};
   margin-bottom: 72px;
+  border-radius: 4px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    margin-bottom: 48px;
+    padding: 16px;
+  }
 `;
