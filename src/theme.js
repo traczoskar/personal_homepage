@@ -21,7 +21,7 @@ const common = {
   breakpoints: {
     mobileMax: 767,
     tabletVerticalMax: 991,
-    tabletHorizontalMax: 1199,
+    tabletHorMax: 1199,
   },
   boxShadow:
     "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02)",
@@ -43,7 +43,7 @@ export const themeLight = {
     },
     boxBackground: colorNames.white,
     headerLine: colorNames.mercury,
-    title: {
+    tile: {
       border: colorNames.porcelain,
       borderHover: colorNames.scienceBlue,
       header: colorNames.scienceBlue,
@@ -71,7 +71,7 @@ export const themeDark = {
     },
     boxBackground: colorNames.mineShaftLighter,
     headerLine: colorNames.tundora,
-    title: {
+    tile: {
       border: colorNames.tundora,
       borderHover: colorNames.blumine,
       header: colorNames.white,
