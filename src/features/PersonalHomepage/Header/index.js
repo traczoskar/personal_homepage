@@ -1,11 +1,12 @@
+import { ThemeSwitch } from "../../../common/ThemeSwitch/index";
 import { AboutMe } from "./AboutMe";
 import { Photo, Wrapper } from "./styled";
-import photo from "../../../assets/photo.jpg";
+import OskarTraczAvatar from "../../../assets/photo.jpg";
 
 export const Header = () => {
   return (
     <Wrapper>
-      <Photo src={photo} alt="Oskar Tracz" />
+      <Photo src={OskarTraczAvatar} alt="Oskar Tracz" />
       <AboutMe />
     </Wrapper>
   );

@@ -1,17 +1,24 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.header`
+  margin-top: -30px; //height of the theme switch
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  gap: 72px;
-  margin-top: 119px;
+  grid-gap: 64px;
   margin-bottom: 73px;
-  padding: 0 128px 0 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-gap: 32px;
+  }
 `;
 
 export const Photo = styled.img`
-  width: 398px;
-  height: 398px;
+  max-width: 398px;
+  width: 30vw;
   border-radius: 50%;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    width: 132px;
+  }
 `;
