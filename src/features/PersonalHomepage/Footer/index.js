@@ -1,4 +1,4 @@
-import { personalData } from "../../dataStore";
+import { personalData } from "../../../dataStore";
 import { SocialIcons } from "./SocialIcons";
 import { Caption, Description, Email, Wrapper } from "./styled";
 

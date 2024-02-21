@@ -12,8 +12,19 @@ export const SocialList = styled.ul`
   }
 `;
 
-export const Item = styled.li``;
+export const Item = styled.li`
+  margin-right: 24px;
+`;
 
 export const styleIcon = (Icon) => styled(Icon)`
   height: auto;
+`;
+
+export const Link = styled.a`
+  color: ${({ theme }) => theme.color.mineshaft};
+  transition: 0.3s;
+
+  &:hover {
+    color: ${({ theme }) => theme.color.scienceblue};
+  }
 `;

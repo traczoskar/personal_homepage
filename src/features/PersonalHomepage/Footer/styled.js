@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Caption = styled.caption`
+export const Caption = styled.p`
   text-align: left;
   font-weight: 700;
   font-size: 12px;
@@ -13,11 +13,11 @@ export const Email = styled.a`
   font-weight: 900;
   text-decoration: none;
   margin-bottom: 24px;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   color: ${({ theme }) => theme.color.mineshaft};
 
   &:hover {
-    color: ${({ theme }) => theme.color.slategray};
+    color: ${({ theme }) => theme.color.scienceblue};
   }
 `;
 

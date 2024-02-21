@@ -1,5 +1,5 @@
 import { socialsStore } from "./socialsStore";
-import { SocialContainer, SocialList } from "./styled";
+import { SocialList, Item, Link } from "./styled";
 
 export const SocialIcons = () => {
   return (
@@ -11,7 +11,6 @@ export const SocialIcons = () => {
           </Link>
         </Item>
       ))}
-      ;
     </SocialList>
   );
 };
