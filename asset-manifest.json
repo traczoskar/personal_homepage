@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/traczoskar.github.io/personal_homepage/static/js/main.a6b2373e.js",
-    "static/js/592.744f8ef4.chunk.js": "/traczoskar.github.io/personal_homepage/static/js/592.744f8ef4.chunk.js",
-    "static/media/photo.jpg": "/traczoskar.github.io/personal_homepage/static/media/photo.b14f6c264e286cc80355.jpg",
-    "static/media/instagram_icon.svg": "/traczoskar.github.io/personal_homepage/static/media/instagram_icon.6a3d319809d58e623c7d2c1b97ab9d7b.svg",
-    "static/media/sun_icon.svg": "/traczoskar.github.io/personal_homepage/static/media/sun_icon.69ec85b5983839bb7ae705edd5fb58db.svg",
-    "static/media/git_icon.svg": "/traczoskar.github.io/personal_homepage/static/media/git_icon.d997abbf2920a10443ded107ac7f342e.svg",
-    "index.html": "/traczoskar.github.io/personal_homepage/index.html",
-    "static/media/linkedIn_icon.svg": "/traczoskar.github.io/personal_homepage/static/media/linkedIn_icon.856fea87a0beddb4da5b790b2aa4f718.svg",
-    "static/media/error.svg": "/traczoskar.github.io/personal_homepage/static/media/error.457bab9844e49da22fdd30aaa1c6f510.svg",
-    "static/media/message_icon.svg": "/traczoskar.github.io/personal_homepage/static/media/message_icon.e6785718be2aaa6ccc29a162dd724b74.svg",
-    "static/media/facebook_icon.svg": "/traczoskar.github.io/personal_homepage/static/media/facebook_icon.c86c9160f434f5f752b172ce0fe890d9.svg",
-    "static/media/spinner.svg": "/traczoskar.github.io/personal_homepage/static/media/spinner.120dff0a86733d924e2d24bb0ab338f7.svg",
-    "static/media/disc.svg": "/traczoskar.github.io/personal_homepage/static/media/disc.65fee71dd2ebf05c6aaf2ec57d3e51fc.svg",
-    "main.a6b2373e.js.map": "/traczoskar.github.io/personal_homepage/static/js/main.a6b2373e.js.map",
-    "592.744f8ef4.chunk.js.map": "/traczoskar.github.io/personal_homepage/static/js/592.744f8ef4.chunk.js.map"
+    "main.js": "/traczoskar.github.io/personal-homepage/static/js/main.40d7fca4.js",
+    "static/js/592.744f8ef4.chunk.js": "/traczoskar.github.io/personal-homepage/static/js/592.744f8ef4.chunk.js",
+    "static/media/photo.jpg": "/traczoskar.github.io/personal-homepage/static/media/photo.b14f6c264e286cc80355.jpg",
+    "static/media/instagram_icon.svg": "/traczoskar.github.io/personal-homepage/static/media/instagram_icon.6a3d319809d58e623c7d2c1b97ab9d7b.svg",
+    "static/media/sun_icon.svg": "/traczoskar.github.io/personal-homepage/static/media/sun_icon.69ec85b5983839bb7ae705edd5fb58db.svg",
+    "static/media/git_icon.svg": "/traczoskar.github.io/personal-homepage/static/media/git_icon.d997abbf2920a10443ded107ac7f342e.svg",
+    "index.html": "/traczoskar.github.io/personal-homepage/index.html",
+    "static/media/linkedIn_icon.svg": "/traczoskar.github.io/personal-homepage/static/media/linkedIn_icon.856fea87a0beddb4da5b790b2aa4f718.svg",
+    "static/media/error.svg": "/traczoskar.github.io/personal-homepage/static/media/error.457bab9844e49da22fdd30aaa1c6f510.svg",
+    "static/media/message_icon.svg": "/traczoskar.github.io/personal-homepage/static/media/message_icon.e6785718be2aaa6ccc29a162dd724b74.svg",
+    "static/media/facebook_icon.svg": "/traczoskar.github.io/personal-homepage/static/media/facebook_icon.c86c9160f434f5f752b172ce0fe890d9.svg",
+    "static/media/spinner.svg": "/traczoskar.github.io/personal-homepage/static/media/spinner.120dff0a86733d924e2d24bb0ab338f7.svg",
+    "static/media/disc.svg": "/traczoskar.github.io/personal-homepage/static/media/disc.65fee71dd2ebf05c6aaf2ec57d3e51fc.svg",
+    "main.40d7fca4.js.map": "/traczoskar.github.io/personal-homepage/static/js/main.40d7fca4.js.map",
+    "592.744f8ef4.chunk.js.map": "/traczoskar.github.io/personal-homepage/static/js/592.744f8ef4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a6b2373e.js"
+    "static/js/main.40d7fca4.js"
   ]
 }
