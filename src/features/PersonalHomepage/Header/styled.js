@@ -8,8 +8,12 @@ export const Wrapper = styled.header`
   grid-gap: 64px;
   margin-bottom: 73px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
     grid-gap: 32px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
   }
 `;
 

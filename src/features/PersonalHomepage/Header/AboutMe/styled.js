@@ -14,7 +14,7 @@ export const Name = styled.h1`
   margin: 12px 0 0 0;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 8px;
   }
 `;
