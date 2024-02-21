@@ -2,7 +2,7 @@ export const personalData = {
   name: "Oskar",
   surname: "Tracz",
   caption:
-    "👨🏻‍💻🖥 Passionate Frontend Developer with a keen eye for user-centric design and visual details. I am seeking engaging projects while dedicating my free time to building my own SaaS application, using experience gained in other industries.",
+    "👨🏻‍💻⚛️ React Frontend Developer with a keen eye for user-centric design and visual details. I am seeking engaging projects while dedicating my free time to building my own SaaS application, using experience gained in other industries.",
   description:
     "I'm open to new projects. If you need any help with building website, SaaS app, dashboard or any kind and size of application feel free to contact me. I'm not afraid of challenges 🙌🤝",
   email: "traczoskar@gmail.com",
@@ -27,7 +27,7 @@ export const skillList = [
   "GitHub: Pull requests and review",
   "Git",
   "Error handling",
-  "Working with REST API (fetch, axios)",
+  "REST API (fetch, Axios)",
   "Promise, Async, Await",
   "Redux",
   "Redux-Saga",
@@ -35,6 +35,7 @@ export const skillList = [
   "React-Router",
   "Scrum",
   "Markdown",
+  "Local Storage",
 ];
 
 export const toLearnList = [
