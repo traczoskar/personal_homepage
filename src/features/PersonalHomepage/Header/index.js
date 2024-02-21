@@ -1,4 +1,3 @@
-import { ThemeSwitch } from "../../../common/ThemeSwitch/index";
 import { AboutMe } from "./AboutMe";
 import { Photo, Wrapper } from "./styled";
 import OskarTraczAvatar from "../../../assets/photo.jpg";
