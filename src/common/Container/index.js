@@ -8,5 +8,6 @@ export const Container = styled.main`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     padding: 8px;
+    margin-top: 30px;
   }
 `;
