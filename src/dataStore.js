@@ -40,9 +40,9 @@ export const skillList = [
 export const toLearnList = [
   "Next.js",
   "TypeScript",
+  "AI API Implementing",
   "React Context",
   "Node.js",
-  "Tailwind CSS",
   "Unit testing",
   "Vite",
   "GraphQL",
