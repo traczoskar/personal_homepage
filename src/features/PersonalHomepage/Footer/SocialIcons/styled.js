@@ -7,7 +7,7 @@ export const SocialList = styled.ul`
   padding: 0;
   margin-top: 56px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin-top: 40px;
   }
 `;
@@ -21,10 +21,10 @@ export const styleIcon = (Icon) => styled(Icon)`
 `;
 
 export const Link = styled.a`
-  color: ${({ theme }) => theme.color.mineshaft};
+  color: ${({ theme }) => theme.colors.textBasic};
   transition: 0.3s;
 
   &:hover {
-    color: ${({ theme }) => theme.color.scienceblue};
+    color: ${({ theme }) => theme.colors.basic};
   }
 `;

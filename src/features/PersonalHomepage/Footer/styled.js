@@ -5,7 +5,6 @@ export const Caption = styled.p`
   font-weight: 700;
   font-size: 12px;
   margin-bottom: 24px;
-  color: ${({ theme }) => theme.color.slategray};
 `;
 
 export const Email = styled.a`
@@ -14,10 +13,10 @@ export const Email = styled.a`
   text-decoration: none;
   margin-bottom: 24px;
   transition: 0.3s ease;
-  color: ${({ theme }) => theme.color.mineshaft};
+  color: ${({ theme }) => theme.colors.textBasic};
 
   &:hover {
-    color: ${({ theme }) => theme.color.scienceblue};
+    color: ${({ theme }) => theme.colors.basic};
   }
 `;
 
@@ -26,14 +25,13 @@ export const Description = styled.p`
   font-weight: 400;
   font-size: 18px;
   margin-top: 0;
-  margin-bottom: 56px;
   line-height: 25px;
-  color: ${({ theme }) => theme.color.slategray};
 `;
 
 export const Wrapper = styled.footer`
   display: flex;
   flex-direction: column;
   margin-right: 525px;
+  margin-top: 120px;
   margin-bottom: 109px;
 `;
