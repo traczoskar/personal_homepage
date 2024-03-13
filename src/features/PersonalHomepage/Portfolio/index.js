@@ -12,7 +12,7 @@ import { SubHeader } from "../../../common/SubHeader";
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
-  const repositoriesSatus = useSelector(selectRepositoriesStatus);
+  const repositoriesStatus = useSelector(selectRepositoriesStatus);
   const repositories = useSelector(selectRepositories);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export const Portfolio = () => {
         <SubHeader>Portfolio</SubHeader>
         <MyRecentProjects>My recent projects</MyRecentProjects>
       </Header>
-      <Content status={repositoriesSatus} repositories={repositories} />
+      <Content status={repositoriesStatus} repositories={repositories} />
     </Section>
   );
 };
