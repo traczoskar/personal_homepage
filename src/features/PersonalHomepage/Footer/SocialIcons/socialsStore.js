@@ -17,7 +17,7 @@ export const socialsStore = [
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/traczoskar/",
     Icon: styleIcon(LinkedInIcon),
   },
   {
