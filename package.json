@@ -1,8 +1,8 @@
 {
-  "name": "personal-homepage",
+  "name": "personal_homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://traczoskar.github.io/personal-homepage/",
+  "homepage": "https://traczoskar.github.io/personal_homepage/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
     "@testing-library/jest-dom": "^5.17.0",
