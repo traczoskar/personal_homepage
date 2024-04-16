@@ -1,6 +1,12 @@
 # Personal Homepage - Virtual CV
 
+### Oskar Tracz 🙋🏻‍♂️
+
 Welcome to my virtual CV! This Personal Homepage project is a dynamic portfolio and CV built using cutting-edge web technologies to showcase my skills and projects directly fetched from GitHub via API.
+
+## App overview 📺
+
+![App overview](/personal_homepage_overviewGIF.gif)
 
 ## Features 🌟
 
