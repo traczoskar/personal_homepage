@@ -15,6 +15,7 @@ Welcome to my virtual CV! This Personal Homepage project is a dynamic portfolio 
 - **Skillset** 💪: Detailed list of my current tech skills.
 - **Learning Goals** 🚀: A forward-looking section about skills I'm actively learning.
 - **GitHub Repositories** 📁: Dynamic tiles populated with real-time data from my GitHub repositories using the GitHub API.
+- **Contact Section** 📩: Footer section contains my social media links and my e-mail address.
 
 ## Technologies Used 🛠️
 
