@@ -6,9 +6,9 @@ export const personalData = {
   description:
     "I'm open to new projects. If you need any help with building website, SaaS app, dashboard or any kind and size of application feel free to contact me. I'm not afraid of challenges 🙌🤝",
   email: "traczoskar@gmail.com",
-};
+} as const;
 
-export const skillList = [
+export const skillList: string[] = [
   "TypeScript",
   "Styled Components",
   "Git",
@@ -41,13 +41,13 @@ export const skillList = [
   "LocalStorage",
 ];
 
-export const toLearnList = [
+export const toLearnList: string[] = [
   "Next.js",
   "Node.js",
   "Jest",
   "Cypress",
   "GraphQL",
-  "Qdrant - vector base",
+  "Nest.js",
 ];
 
 export const GitHubAPI = "https://api.github.com/users/traczoskar/repos";
