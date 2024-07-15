@@ -53,7 +53,7 @@ export const themeLight = {
       icon: colorNames.white,
     },
   },
-};
+} as const;
 
 export const themeDark = {
   ...common,
@@ -81,4 +81,4 @@ export const themeDark = {
       icon: colorNames.mineShaft,
     },
   },
-};
+} as const;
