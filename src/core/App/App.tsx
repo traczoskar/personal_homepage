@@ -6,7 +6,7 @@ import { selectIsDarkTheme } from "../../common/ThemeSwitch/themeSlice";
 import { themeDark, themeLight } from "../../theme";
 
 function App() {
-  const isDarkTheme = useSelector(selectIsDarkTheme);
+  const isDarkTheme: boolean = useSelector(selectIsDarkTheme);
 
   return (
     <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
