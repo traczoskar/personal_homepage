@@ -1,12 +1,31 @@
-import { takeLatest, call, put, delay } from "redux-saga/effects";
+import {
+  takeLatest,
+  call,
+  put,
+  delay,
+  CallEffect,
+  PutEffect,
+} from "redux-saga/effects";
 import {
   fetchRepositories,
   fetchRepositoriesSuccess,
   fetchRepositoriesError,
 } from "./personalHomepageSlice";
 import { getAPIData } from "./getAPIData";
+import { Repository } from "../../types/types";
 
-function* fetchRepositoriesHandler({ payload: username }) {
+interface FetchRepositoriesAction {
+  payload: string;
+  type: string;
+}
+
+function* fetchRepositoriesHandler({
+  payload: username,
+}: FetchRepositoriesAction): Generator<
+  CallEffect<Repository[]> | PutEffect,
+  void,
+  Repository[]
+> {
   try {
     yield delay(2000);
     const repositories = yield call(getAPIData, username);
