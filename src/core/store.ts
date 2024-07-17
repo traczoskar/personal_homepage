@@ -4,6 +4,8 @@ import personalHomepageReducer from "../features/PersonalHomepage/personalHomepa
 import themeReducer from "../common/ThemeSwitch/themeSlice";
 import saga from "./saga";
 
+export type RootState = ReturnType<typeof store.getState>;
+
 const sagaMiddleware: SagaMiddleware<object> = createSagaMiddleware();
 
 const store = configureStore({
@@ -18,3 +20,4 @@ const store = configureStore({
 sagaMiddleware.run(saga);
 
 export default store;
+sagaMiddleware.run(saga);
