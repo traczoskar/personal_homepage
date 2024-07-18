@@ -13,6 +13,7 @@ import {
 } from "./personalHomepageSlice";
 import { getAPIData } from "./getAPIData";
 import { Repository } from "../../types/types";
+import { gitHubUsername } from "./Portfolio/gitHubUsername";
 
 interface FetchRepositoriesAction {
   payload: string;
@@ -28,7 +29,7 @@ function* fetchRepositoriesHandler({
 > {
   try {
     yield delay(2000);
-    const repositories = yield call(getAPIData, username);
+    const repositories = yield call(getAPIData, gitHubUsername);
     yield put(fetchRepositoriesSuccess(repositories));
   } catch (error) {
     yield put(fetchRepositoriesError());
