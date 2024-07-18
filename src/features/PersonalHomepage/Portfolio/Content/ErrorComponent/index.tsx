@@ -3,7 +3,7 @@ import { gitHubUsername } from "../../gitHubUsername";
 import { Wrapper, Header, Paragraph } from "./styled";
 import { Button } from "../../../Button";
 
-export const Error = () => (
+export const ErrorComponent = () => (
   <Wrapper>
     <ErrorIcon />
     <Header>Ooops! Something went&nbsp;wrong...</Header>
