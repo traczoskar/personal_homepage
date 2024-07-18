@@ -16,7 +16,7 @@ export const Portfolio = () => {
   const repositories = useSelector(selectRepositories);
 
   useEffect(() => {
-    dispatch(fetchRepositories(gitHubUsername));
+    dispatch(fetchRepositories());
   }, [dispatch]);
 
   return (
