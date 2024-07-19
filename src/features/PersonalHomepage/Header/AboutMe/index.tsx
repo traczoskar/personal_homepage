@@ -17,5 +17,3 @@ export const AboutMe = () => {
     </div>
   );
 };
-
-//49 minuta Loading
