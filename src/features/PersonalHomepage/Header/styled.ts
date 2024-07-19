@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  margin-top: -30px; //height of the theme switch
+  margin-top: -30px;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
