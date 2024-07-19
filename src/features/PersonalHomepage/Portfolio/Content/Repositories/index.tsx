@@ -1,3 +1,4 @@
+import { Repository } from "../../../../../types/types";
 import {
   Description,
   Tile,
@@ -9,14 +10,18 @@ import {
   LinksValue,
 } from "./styled";
 
-export const Repositories = ({ repositories }) => (
+interface RepositoriesProps {
+  repositories: Repository[] | null;
+}
+
+export const Repositories: React.FC<RepositoriesProps> = ({ repositories }) => (
   <List>
-    {repositories.map(({ id, name, description, homepage, html_url }) => (
+    {repositories?.map(({ id, name, description, homepage, html_url }) => (
       <Tile key={id}>
         <Name>{name}</Name>
         <Description>{description}</Description>
         <Links>
-          {!!homepage && (
+          {homepage && (
             <LinksRow>
               <dt>Demo:</dt>
               <LinksValue>
